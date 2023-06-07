@@ -64,6 +64,8 @@ group :development, :test do
   gem 'capybara'
   gem 'poltergeist'
   gem 'database_cleaner'
+  gem "selenium-webdriver"
+  gem "webdrivers"
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 
@@ -82,4 +84,6 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem 'capybara'
+  gem 'poltergeist'
 end
